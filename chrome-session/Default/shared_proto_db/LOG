@@ -1,0 +1,39 @@
+2026/11/03-23:56:47.861 8e0c Reusing MANIFEST C:\Users\salmans\Desktop\TPG\Agent_Inventory_Bot\chrome-session\Default\shared_proto_db/MANIFEST-000001
+2026/11/03-23:56:47.862 8e0c Recovering log #58
+2026/11/03-23:56:47.863 8e0c Reusing old log C:\Users\salmans\Desktop\TPG\Agent_Inventory_Bot\chrome-session\Default\shared_proto_db/000058.log 
+2026/11/03-23:57:30.573 8e0c Level-0 table #62: started
+2026/11/03-23:57:30.580 8e0c Level-0 table #62: 130816 bytes OK
+2026/11/03-23:57:30.583 8e0c Delete type=0 #58
+2026/11/03-23:57:30.654 6544 Level-0 table #64: started
+2026/11/03-23:57:30.660 6544 Level-0 table #64: 125145 bytes OK
+2026/11/03-23:57:30.663 6544 Delete type=0 #61
+2026/11/03-23:57:30.664 8e0c Compacting 4@0 + 1@1 files
+2026/11/03-23:57:30.674 8e0c Generated table #65@0: 33 keys, 129804 bytes
+2026/11/03-23:57:30.674 8e0c Compacted 4@0 + 1@1 files => 129804 bytes
+2026/11/03-23:57:30.675 8e0c compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/11/03-23:57:30.675 8e0c Delete type=2 #55
+2026/11/03-23:57:30.675 8e0c Delete type=2 #57
+2026/11/03-23:57:30.675 8e0c Delete type=2 #59
+2026/11/03-23:57:30.676 8e0c Delete type=2 #62
+2026/11/03-23:57:30.676 8e0c Delete type=2 #64
+2026/11/03-23:58:43.032 8e0c Level-0 table #67: started
+2026/11/03-23:58:43.048 8e0c Level-0 table #67: 323859 bytes OK
+2026/11/03-23:58:43.050 8e0c Delete type=0 #63
+2026/11/03-23:58:43.155 8e0c Level-0 table #69: started
+2026/11/03-23:58:43.168 8e0c Level-0 table #69: 322353 bytes OK
+2026/11/03-23:58:43.177 8e0c Delete type=0 #66
+2026/11/03-23:59:24.166 6544 Level-0 table #71: started
+2026/11/03-23:59:24.169 6544 Level-0 table #71: 43689 bytes OK
+2026/11/03-23:59:24.171 6544 Delete type=0 #68
+2026/11/03-23:59:24.221 6544 Level-0 table #73: started
+2026/11/03-23:59:24.225 6544 Level-0 table #73: 42230 bytes OK
+2026/11/03-23:59:24.226 6544 Delete type=0 #70
+2026/11/03-23:59:24.227 6544 Compacting 4@0 + 1@1 files
+2026/11/03-23:59:24.257 6544 Generated table #74@0: 35 keys, 50313 bytes
+2026/11/03-23:59:24.258 6544 Compacted 4@0 + 1@1 files => 50313 bytes
+2026/11/03-23:59:24.259 6544 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/11/03-23:59:24.260 6544 Delete type=2 #65
+2026/11/03-23:59:24.260 6544 Delete type=2 #67
+2026/11/03-23:59:24.260 6544 Delete type=2 #69
+2026/11/03-23:59:24.260 6544 Delete type=2 #71
+2026/11/03-23:59:24.260 6544 Delete type=2 #73
