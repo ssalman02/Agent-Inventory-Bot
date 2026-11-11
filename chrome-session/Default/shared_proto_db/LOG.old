@@ -1,30 +1,12 @@
-2026/11/03-23:50:27.078 32a4 Reusing MANIFEST C:\Users\salmans\Desktop\TPG\Agent_Inventory_Bot\chrome-session\Default\shared_proto_db/MANIFEST-000001
-2026/11/03-23:50:27.078 32a4 Recovering log #43
-2026/11/03-23:50:27.079 32a4 Reusing old log C:\Users\salmans\Desktop\TPG\Agent_Inventory_Bot\chrome-session\Default\shared_proto_db/000043.log 
-2026/11/03-23:51:09.736 32a4 Level-0 table #48: started
-2026/11/03-23:51:09.743 32a4 Level-0 table #48: 132371 bytes OK
-2026/11/03-23:51:09.745 32a4 Delete type=0 #43
-2026/11/03-23:51:09.816 32a4 Level-0 table #50: started
-2026/11/03-23:51:09.821 32a4 Level-0 table #50: 126650 bytes OK
-2026/11/03-23:51:09.823 32a4 Delete type=0 #47
-2026/11/03-23:52:19.219 32a4 Level-0 table #52: started
-2026/11/03-23:52:19.234 32a4 Level-0 table #52: 328687 bytes OK
-2026/11/03-23:52:19.237 32a4 Delete type=0 #49
-2026/11/03-23:52:19.330 3b28 Level-0 table #54: started
-2026/11/03-23:52:19.339 3b28 Level-0 table #54: 327186 bytes OK
-2026/11/03-23:52:19.342 3b28 Delete type=0 #51
-2026/11/03-23:52:19.344 3b28 Compacting 4@0 + 1@1 files
-2026/11/03-23:52:19.359 3b28 Generated table #55@0: 31 keys, 333448 bytes
-2026/11/03-23:52:19.359 3b28 Compacted 4@0 + 1@1 files => 333448 bytes
-2026/11/03-23:52:19.360 3b28 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/11/03-23:52:19.360 3b28 Delete type=2 #45
-2026/11/03-23:52:19.360 3b28 Delete type=2 #48
-2026/11/03-23:52:19.360 3b28 Delete type=2 #50
-2026/11/03-23:52:19.360 3b28 Delete type=2 #52
-2026/11/03-23:52:19.360 3b28 Delete type=2 #54
-2026/11/03-23:53:00.202 3b28 Level-0 table #57: started
-2026/11/03-23:53:00.205 3b28 Level-0 table #57: 44231 bytes OK
-2026/11/03-23:53:00.207 3b28 Delete type=0 #53
-2026/11/03-23:53:00.270 32a4 Level-0 table #59: started
-2026/11/03-23:53:00.275 32a4 Level-0 table #59: 42709 bytes OK
-2026/11/03-23:53:00.276 32a4 Delete type=0 #56
+2026/11/11-23:03:24.038 30c4 Reusing MANIFEST C:\Users\salmans\Desktop\TPG\Agent_Inventory_Bot\chrome-session\Default\shared_proto_db/MANIFEST-000001
+2026/11/11-23:03:24.044 30c4 Recovering log #72
+2026/11/11-23:03:24.045 30c4 Reusing old log C:\Users\salmans\Desktop\TPG\Agent_Inventory_Bot\chrome-session\Default\shared_proto_db/000072.log 
+2026/11/11-23:04:05.594 30c4 Level-0 table #77: started
+2026/11/11-23:04:05.598 30c4 Level-0 table #77: 62088 bytes OK
+2026/11/11-23:04:05.600 30c4 Delete type=0 #72
+2026/11/11-23:05:08.848 30c4 Level-0 table #79: started
+2026/11/11-23:05:08.862 30c4 Level-0 table #79: 223307 bytes OK
+2026/11/11-23:05:08.866 30c4 Delete type=0 #76
+2026/11/11-23:05:08.963 30c4 Level-0 table #81: started
+2026/11/11-23:05:08.972 30c4 Level-0 table #81: 221778 bytes OK
+2026/11/11-23:05:08.975 30c4 Delete type=0 #78

@@ -705,7 +705,6 @@ def cleanup_output_folder(download_path, final_files):
     print("\nCleanup completed.")
     print("Both final Excel workbooks are preserved.")
 
-
 def run(
     playwright,
     start_date,

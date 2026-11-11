@@ -1,39 +1,36 @@
-2026/11/03-23:56:47.861 8e0c Reusing MANIFEST C:\Users\salmans\Desktop\TPG\Agent_Inventory_Bot\chrome-session\Default\shared_proto_db/MANIFEST-000001
-2026/11/03-23:56:47.862 8e0c Recovering log #58
-2026/11/03-23:56:47.863 8e0c Reusing old log C:\Users\salmans\Desktop\TPG\Agent_Inventory_Bot\chrome-session\Default\shared_proto_db/000058.log 
-2026/11/03-23:57:30.573 8e0c Level-0 table #62: started
-2026/11/03-23:57:30.580 8e0c Level-0 table #62: 130816 bytes OK
-2026/11/03-23:57:30.583 8e0c Delete type=0 #58
-2026/11/03-23:57:30.654 6544 Level-0 table #64: started
-2026/11/03-23:57:30.660 6544 Level-0 table #64: 125145 bytes OK
-2026/11/03-23:57:30.663 6544 Delete type=0 #61
-2026/11/03-23:57:30.664 8e0c Compacting 4@0 + 1@1 files
-2026/11/03-23:57:30.674 8e0c Generated table #65@0: 33 keys, 129804 bytes
-2026/11/03-23:57:30.674 8e0c Compacted 4@0 + 1@1 files => 129804 bytes
-2026/11/03-23:57:30.675 8e0c compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/11/03-23:57:30.675 8e0c Delete type=2 #55
-2026/11/03-23:57:30.675 8e0c Delete type=2 #57
-2026/11/03-23:57:30.675 8e0c Delete type=2 #59
-2026/11/03-23:57:30.676 8e0c Delete type=2 #62
-2026/11/03-23:57:30.676 8e0c Delete type=2 #64
-2026/11/03-23:58:43.032 8e0c Level-0 table #67: started
-2026/11/03-23:58:43.048 8e0c Level-0 table #67: 323859 bytes OK
-2026/11/03-23:58:43.050 8e0c Delete type=0 #63
-2026/11/03-23:58:43.155 8e0c Level-0 table #69: started
-2026/11/03-23:58:43.168 8e0c Level-0 table #69: 322353 bytes OK
-2026/11/03-23:58:43.177 8e0c Delete type=0 #66
-2026/11/03-23:59:24.166 6544 Level-0 table #71: started
-2026/11/03-23:59:24.169 6544 Level-0 table #71: 43689 bytes OK
-2026/11/03-23:59:24.171 6544 Delete type=0 #68
-2026/11/03-23:59:24.221 6544 Level-0 table #73: started
-2026/11/03-23:59:24.225 6544 Level-0 table #73: 42230 bytes OK
-2026/11/03-23:59:24.226 6544 Delete type=0 #70
-2026/11/03-23:59:24.227 6544 Compacting 4@0 + 1@1 files
-2026/11/03-23:59:24.257 6544 Generated table #74@0: 35 keys, 50313 bytes
-2026/11/03-23:59:24.258 6544 Compacted 4@0 + 1@1 files => 50313 bytes
-2026/11/03-23:59:24.259 6544 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/11/03-23:59:24.260 6544 Delete type=2 #65
-2026/11/03-23:59:24.260 6544 Delete type=2 #67
-2026/11/03-23:59:24.260 6544 Delete type=2 #69
-2026/11/03-23:59:24.260 6544 Delete type=2 #71
-2026/11/03-23:59:24.260 6544 Delete type=2 #73
+2026/11/11-23:06:50.511 7c50 Reusing MANIFEST C:\Users\salmans\Desktop\TPG\Agent_Inventory_Bot\chrome-session\Default\shared_proto_db/MANIFEST-000001
+2026/11/11-23:06:50.513 7c50 Recovering log #80
+2026/11/11-23:06:50.515 7c50 Reusing old log C:\Users\salmans\Desktop\TPG\Agent_Inventory_Bot\chrome-session\Default\shared_proto_db/000080.log 
+2026/11/11-23:07:32.485 7c50 Level-0 table #84: started
+2026/11/11-23:07:32.491 7c50 Level-0 table #84: 95437 bytes OK
+2026/11/11-23:07:32.493 7c50 Delete type=0 #80
+2026/11/11-23:07:32.495 7c50 Compacting 4@0 + 1@1 files
+2026/11/11-23:07:32.503 7c50 Generated table #85@0: 56 keys, 65423 bytes
+2026/11/11-23:07:32.503 7c50 Compacted 4@0 + 1@1 files => 65423 bytes
+2026/11/11-23:07:32.504 7c50 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/11/11-23:07:32.505 7c50 Delete type=2 #74
+2026/11/11-23:07:32.505 7c50 Delete type=2 #77
+2026/11/11-23:07:32.505 7c50 Delete type=2 #79
+2026/11/11-23:07:32.505 7c50 Delete type=2 #81
+2026/11/11-23:07:32.505 7c50 Delete type=2 #84
+2026/11/11-23:07:32.568 2c5c Level-0 table #87: started
+2026/11/11-23:07:32.571 2c5c Level-0 table #87: 60436 bytes OK
+2026/11/11-23:07:32.573 2c5c Delete type=0 #83
+2026/11/11-23:08:39.315 2c5c Level-0 table #89: started
+2026/11/11-23:08:39.332 2c5c Level-0 table #89: 252295 bytes OK
+2026/11/11-23:08:39.335 2c5c Delete type=0 #86
+2026/11/11-23:08:39.432 2c5c Level-0 table #91: started
+2026/11/11-23:08:39.442 2c5c Level-0 table #91: 250800 bytes OK
+2026/11/11-23:08:39.444 2c5c Delete type=0 #88
+2026/11/11-23:09:20.599 7c50 Level-0 table #93: started
+2026/11/11-23:09:20.607 7c50 Level-0 table #93: 52993 bytes OK
+2026/11/11-23:09:20.609 7c50 Delete type=0 #90
+2026/11/11-23:09:20.611 2c5c Compacting 4@0 + 1@1 files
+2026/11/11-23:09:20.637 2c5c Generated table #94@0: 59 keys, 34450 bytes
+2026/11/11-23:09:20.637 2c5c Compacted 4@0 + 1@1 files => 34450 bytes
+2026/11/11-23:09:20.638 2c5c compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/11/11-23:09:20.640 2c5c Delete type=2 #85
+2026/11/11-23:09:20.640 2c5c Delete type=2 #87
+2026/11/11-23:09:20.640 2c5c Delete type=2 #89
+2026/11/11-23:09:20.640 2c5c Delete type=2 #91
+2026/11/11-23:09:20.640 2c5c Delete type=2 #93
