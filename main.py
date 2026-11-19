@@ -9,9 +9,9 @@ import pandas as pd
 from playwright.sync_api import sync_playwright
 
 CASE_STATES = {
-    "IE": 37,
-    "CC": 38,
-    "Retrival": 39,
+    "IE": 38,
+    "CC": 39,
+    "Retrival": 40,
 }
 
 def retry(func, retries=3, delay=1):
@@ -319,7 +319,8 @@ def xml_to_dataframe(xml_file, case_state):
         columns=headers,
     )
 
-    df["Status"] = ""
+    # Assign the current case state so crosstab counts IE, CC, and Retrival properly.
+    df["Status"] = case_state
 
     print(
         f"{case_state} DataFrame created successfully."
@@ -514,8 +515,8 @@ def process_case(
 
     # Parse the XML and create a dataframe.
     df = xml_to_dataframe(
-    xml_file,
-    case_state,
+        xml_file,
+        case_state,
     )
 
     print(
@@ -582,7 +583,7 @@ def save_combined_excel(results, output_file, summary_file):
                 "Status column not found in combined data."
             )
 
-        # Exclude blank Payor records.
+        # Exclude blank Payor and Status records.
         summary_data = combined_df[
             combined_df["Payor"].notna()
             & (
@@ -590,7 +591,16 @@ def save_combined_excel(results, output_file, summary_file):
                 .astype(str)
                 .str.strip() != ""
             )
+            & combined_df["Status"].notna()
+            & (
+                combined_df["Status"]
+                .astype(str)
+                .str.strip() != ""
+            )
         ].copy()
+
+        summary_data["Payor"] = summary_data["Payor"].astype(str).str.strip()
+        summary_data["Status"] = summary_data["Status"].astype(str).str.strip()
 
         # Create Payor-wise summary.
         summary_df = pd.crosstab(
@@ -641,7 +651,6 @@ def save_combined_excel(results, output_file, summary_file):
         )
 
     print(f"Summary Excel created: {summary_file}")
-
 
     # ==========================================
     # VERIFY BOTH EXCEL WORKBOOKS
@@ -745,7 +754,7 @@ def run(
         print("Logging into Golden Bear...")
     
         retry(lambda:page.locator('//input[@name="user"]').fill("TAGO"))
-        retry(lambda:page.locator('//input[@name="pass"]').fill("Therapy#16"))
+        retry(lambda:page.locator('//input[@name="pass"]').fill("Therapy#167"))
         retry(lambda: page.locator("//input[@name='login']").click())
         time.sleep(3)
         retry(
@@ -799,24 +808,22 @@ def run(
                 reset_filters_for_next_case(page)
 
         if start_date and end_date:
-
             startdateP = datetime.datetime.strptime(
                 start_date,
-                "%m/%d/%y"
+                "%m-%d-%y"
             ).strftime("%d")
 
             enddateP = datetime.datetime.strptime(
                 end_date,
-                "%m/%d/%y"
+                "%m-%d-%y"
             ).strftime("%d")
 
             filename = f"NAD {startdateP} - {enddateP}"
-
+            
         elif start_date:
-
             startdateP = datetime.datetime.strptime(
                 start_date,
-                "%m/%d/%y"
+                "%m-%d-%y"
             ).strftime("%d")
 
             filename = f"NAD From_{startdateP}"
@@ -825,7 +832,7 @@ def run(
 
             enddateP = datetime.datetime.strptime(
                 end_date,
-                "%m/%d/%y"
+                "%m-%d-%y"
             ).strftime("%d")
 
             filename = f"NAD Till_{enddateP}"
@@ -833,7 +840,6 @@ def run(
         else:
 
             filename = "All_Records"
-
         
         # ==========================================
         # GENERATE TWO EXCEL FILE NAMES
