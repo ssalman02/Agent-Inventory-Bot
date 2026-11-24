@@ -1,27 +1,27 @@
-2026/11/19-20:28:48.545 21e0 Reusing MANIFEST C:\Users\salmans\Desktop\TPG\Agent_Inventory_Bot\chrome-session\Default\shared_proto_db/MANIFEST-000001
-2026/11/19-20:28:48.545 21e0 Recovering log #117
-2026/11/19-20:28:48.548 21e0 Reusing old log C:\Users\salmans\Desktop\TPG\Agent_Inventory_Bot\chrome-session\Default\shared_proto_db/000117.log 
-2026/11/19-20:29:32.928 21e0 Level-0 table #121: started
-2026/11/19-20:29:32.936 21e0 Level-0 table #121: 109735 bytes OK
-2026/11/19-20:29:32.937 21e0 Delete type=0 #117
-2026/11/19-20:29:33.038 5d88 Level-0 table #123: started
-2026/11/19-20:29:33.043 5d88 Level-0 table #123: 103311 bytes OK
-2026/11/19-20:29:33.046 5d88 Delete type=0 #120
-2026/11/19-20:29:33.048 5d88 Compacting 4@0 + 1@1 files
-2026/11/19-20:29:33.059 5d88 Generated table #124@0: 75 keys, 109683 bytes
-2026/11/19-20:29:33.059 5d88 Compacted 4@0 + 1@1 files => 109683 bytes
-2026/11/19-20:29:33.060 5d88 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/11/19-20:29:33.061 5d88 Delete type=2 #114
-2026/11/19-20:29:33.061 5d88 Delete type=2 #116
-2026/11/19-20:29:33.061 5d88 Delete type=2 #118
-2026/11/19-20:29:33.061 5d88 Delete type=2 #121
-2026/11/19-20:29:33.061 5d88 Delete type=2 #123
-2026/11/19-20:30:30.185 21e0 Level-0 table #126: started
-2026/11/19-20:30:30.199 21e0 Level-0 table #126: 197048 bytes OK
-2026/11/19-20:30:30.201 21e0 Delete type=0 #122
-2026/11/19-20:30:30.288 21e0 Level-0 table #128: started
-2026/11/19-20:30:30.294 21e0 Level-0 table #128: 195418 bytes OK
-2026/11/19-20:30:30.296 21e0 Delete type=0 #125
-2026/11/19-20:31:09.617 21e0 Level-0 table #130: started
-2026/11/19-20:31:09.621 21e0 Level-0 table #130: 53355 bytes OK
-2026/11/19-20:31:09.624 21e0 Delete type=0 #127
+2026/11/25-01:54:12.258 1ffc Reusing MANIFEST C:\Users\salmans\Desktop\TPG\Agent_Inventory_Bot\chrome-session\Default\shared_proto_db/MANIFEST-000001
+2026/11/25-01:54:12.259 1ffc Recovering log #244
+2026/11/25-01:54:12.260 1ffc Reusing old log C:\Users\salmans\Desktop\TPG\Agent_Inventory_Bot\chrome-session\Default\shared_proto_db/000244.log 
+2026/11/25-01:54:59.468 3aac Level-0 table #248: started
+2026/11/25-01:54:59.478 3aac Level-0 table #248: 147941 bytes OK
+2026/11/25-01:54:59.480 3aac Delete type=0 #244
+2026/11/25-01:54:59.572 1ffc Level-0 table #250: started
+2026/11/25-01:54:59.581 1ffc Level-0 table #250: 140451 bytes OK
+2026/11/25-01:54:59.583 1ffc Delete type=0 #247
+2026/11/25-01:54:59.584 1ffc Compacting 4@0 + 1@1 files
+2026/11/25-01:54:59.599 1ffc Generated table #251@0: 120 keys, 148115 bytes
+2026/11/25-01:54:59.600 1ffc Compacted 4@0 + 1@1 files => 148115 bytes
+2026/11/25-01:54:59.601 1ffc compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/11/25-01:54:59.601 1ffc Delete type=2 #241
+2026/11/25-01:54:59.601 1ffc Delete type=2 #243
+2026/11/25-01:54:59.601 1ffc Delete type=2 #245
+2026/11/25-01:54:59.602 1ffc Delete type=2 #248
+2026/11/25-01:54:59.602 1ffc Delete type=2 #250
+2026/11/25-01:55:58.336 3aac Level-0 table #253: started
+2026/11/25-01:55:58.350 3aac Level-0 table #253: 215593 bytes OK
+2026/11/25-01:55:58.353 3aac Delete type=0 #249
+2026/11/25-01:55:58.449 3aac Level-0 table #255: started
+2026/11/25-01:55:58.463 3aac Level-0 table #255: 214045 bytes OK
+2026/11/25-01:55:58.465 3aac Delete type=0 #252
+2026/11/25-01:56:37.869 3aac Level-0 table #257: started
+2026/11/25-01:56:37.872 3aac Level-0 table #257: 58801 bytes OK
+2026/11/25-01:56:37.874 3aac Delete type=0 #254
